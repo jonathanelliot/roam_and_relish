@@ -1,9 +1,9 @@
 require 'rails_helper'
 
 RSpec.feature 'Content', type: :feature do
-  scenario 'User can see the brand name' do
+  scenario 'User can see the brand logo' do
     visit '/'
-    expect(page).to have_content 'Roam & Relish'
+    expect(page).to have_css("img[src*='R&RTrademarked']")
   end
   scenario 'User can see menu items' do
     visit '/'
