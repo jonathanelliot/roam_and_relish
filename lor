@@ -1,0 +1,62 @@
+
+An error occurred while loading ./spec/controllers/home_controller_spec.rb.
+[31mFailure/Error: require 'capybara/rails'[0m
+[31m[0m
+[31mNameError:[0m
+[31m  uninitialized constant Rails[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/capybara-2.14.4/lib/capybara/rails.rb:6:in `block (2 levels) in <top (required)>'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/rack-2.0.3/lib/rack/builder.rb:55:in `instance_eval'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/rack-2.0.3/lib/rack/builder.rb:55:in `initialize'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/rack-2.0.3/lib/rack/builder.rb:160:in `new'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/rack-2.0.3/lib/rack/builder.rb:160:in `block in generate_map'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/rack-2.0.3/lib/rack/builder.rb:160:in `each'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/rack-2.0.3/lib/rack/builder.rb:160:in `generate_map'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/rack-2.0.3/lib/rack/builder.rb:145:in `to_app'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/capybara-2.14.4/lib/capybara/rails.rb:13:in `<top (required)>'[0m
+[36m# ./spec/rails_helper.rb:3:in `require'[0m
+[36m# ./spec/rails_helper.rb:3:in `<top (required)>'[0m
+[36m# ./spec/controllers/home_controller_spec.rb:1:in `require'[0m
+[36m# ./spec/controllers/home_controller_spec.rb:1:in `<top (required)>'[0m
+
+An error occurred while loading ./spec/helpers/home_helper_spec.rb.
+[31mFailure/Error: require 'capybara/rails'[0m
+[31m[0m
+[31mNameError:[0m
+[31m  uninitialized constant Rails[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/capybara-2.14.4/lib/capybara/rails.rb:6:in `block (2 levels) in <top (required)>'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/rack-2.0.3/lib/rack/builder.rb:55:in `instance_eval'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/rack-2.0.3/lib/rack/builder.rb:55:in `initialize'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/rack-2.0.3/lib/rack/builder.rb:160:in `new'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/rack-2.0.3/lib/rack/builder.rb:160:in `block in generate_map'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/rack-2.0.3/lib/rack/builder.rb:160:in `each'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/rack-2.0.3/lib/rack/builder.rb:160:in `generate_map'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/rack-2.0.3/lib/rack/builder.rb:145:in `to_app'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/capybara-2.14.4/lib/capybara/rails.rb:13:in `<top (required)>'[0m
+[36m# ./spec/rails_helper.rb:3:in `require'[0m
+[36m# ./spec/rails_helper.rb:3:in `<top (required)>'[0m
+[36m# ./spec/helpers/home_helper_spec.rb:1:in `require'[0m
+[36m# ./spec/helpers/home_helper_spec.rb:1:in `<top (required)>'[0m
+
+An error occurred while loading ./spec/models/home_spec.rb.
+[31mFailure/Error: require 'capybara/rails'[0m
+[31m[0m
+[31mNameError:[0m
+[31m  uninitialized constant Rails[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/capybara-2.14.4/lib/capybara/rails.rb:6:in `block (2 levels) in <top (required)>'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/rack-2.0.3/lib/rack/builder.rb:55:in `instance_eval'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/rack-2.0.3/lib/rack/builder.rb:55:in `initialize'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/rack-2.0.3/lib/rack/builder.rb:160:in `new'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/rack-2.0.3/lib/rack/builder.rb:160:in `block in generate_map'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/rack-2.0.3/lib/rack/builder.rb:160:in `each'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/rack-2.0.3/lib/rack/builder.rb:160:in `generate_map'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/rack-2.0.3/lib/rack/builder.rb:145:in `to_app'[0m
+[36m# /Users/jonathanelliot/.rvm/gems/ruby-2.4.0/gems/capybara-2.14.4/lib/capybara/rails.rb:13:in `<top (required)>'[0m
+[36m# ./spec/rails_helper.rb:3:in `require'[0m
+[36m# ./spec/rails_helper.rb:3:in `<top (required)>'[0m
+[36m# ./spec/models/home_spec.rb:1:in `require'[0m
+[36m# ./spec/models/home_spec.rb:1:in `<top (required)>'[0m
+No examples found.
+
+Finished in 0.00018 seconds (files took 0.40107 seconds to load)
+[31m0 examples, 0 failures, 3 errors occurred outside of examples[0m
+
