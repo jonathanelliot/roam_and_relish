@@ -1,0 +1,15 @@
+require 'rails_helper'
+
+RSpec.feature 'Content', type: :feature do
+  scenario 'user can see the brand name' do
+    visit '/'
+    expect(page).to have_content 'Roam & Relish'
+  end
+  scenario 'user can see menu items' do
+    visit '/'
+    expect(page).to have_content 'Story'
+    expect(page).to have_content 'Products'
+    expect(page).to have_content 'Stockists'
+    expect(page).to have_content 'Buy Online'
+  end
+end
