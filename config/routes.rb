@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
   resources :story
   resources :products
+  resources :stockists
 end
