@@ -16,4 +16,10 @@ RSpec.feature 'Menu Links', type: :feature do
     click_on 'Stockists'
     expect(current_path).to eq('/stockists')
   end
+  scenario 'User can return to the home page' do
+    visit '/'
+    click_on 'Story'
+    click_on 'Home'
+    expect(current_path).to eq('/')
+  end
 end
