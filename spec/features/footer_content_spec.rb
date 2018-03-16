@@ -8,12 +8,12 @@ RSpec.feature 'Footer', type: :feature do
     expect(page).to have_content '©️2018 Roam & Relish'
   end
   scenario 'User can see Facebook link' do
-    expect(page).to have_css("img[src*='eo_facebook']")
+    expect(page).to have_css("img[src*='facebook']")
   end
   scenario 'User can see Twitter link' do
-    expect(page).to have_css("img[src*='eo_twitter']")
+    expect(page).to have_css("img[src*='twitter']")
   end
   scenario 'User can see Youtube link' do
-    expect(page).to have_css("img[src*='eo_youtube']")
+    expect(page).to have_css("img[src*='youtube']")
   end
 end

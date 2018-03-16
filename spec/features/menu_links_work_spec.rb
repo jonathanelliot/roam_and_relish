@@ -11,9 +11,9 @@ RSpec.feature 'Menu Links', type: :feature do
     click_on 'Products'
     expect(current_path).to eq('/products')
   end
-  scenario 'User can use the stockists menu link' do
+  scenario 'User can use the Where To Buy menu link' do
     visit '/'
-    click_on 'Stockists'
+    click_on 'Where To Buy'
     expect(current_path).to eq('/stockists')
   end
   scenario 'User can return to the home page' do
